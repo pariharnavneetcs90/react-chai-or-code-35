@@ -16,12 +16,31 @@ function App() {
     //setcounter(counter) // values update ke liye
     setcounter(counter+1) // ye bhi kar sakte the
     console.log('test', counter)
+
+
+   
+   
   }
 
   const removeVal = () =>{
     setcounter(counter-1)
     console.log('remove value',counter)
   }
+
+  // vedio no 8 ka code
+
+  //   const addMutipleVal =()=>{
+
+  //   // ye kaam nahi kare ga
+  //   setcounter(counter+1) // ye bhi kar sakte the
+  //   setcounter(counter+1) // ye bhi kar sakte the
+
+  //   //ye kaam kare ga
+  //   setcounter(pervCounter => pervCounter +1)
+  //   setcounter(pervCounter => pervCounter +1)
+  //   setcounter(pervCounter => pervCounter +1)
+
+  // } 
   return (
     <>
       <h1>chai or react</h1>
@@ -33,6 +52,11 @@ function App() {
       <br />
       <button onClick={removeVal}
       >remove value</button>
+      <br />
+
+      {/* <button onClick={addMutipleVal}>
+        vedio no 8 question   {counter}
+      </button> */}
 
     </>
   )
